@@ -1,0 +1,26 @@
+{
+  "parties:9": {
+    "0:10": {
+      "members:9": {
+        "0:10": {
+          "status:8": "MEMBER",
+          "uuid:8": "de046165-d8f1-4bed-9f68-933f051cbd96"
+        },
+        "1:10": {
+          "status:8": "OWNER",
+          "uuid:8": "e67a1beb-0c52-4432-b948-331e4014d0fd"
+        },
+        "2:10": {
+          "status:8": "MEMBER",
+          "uuid:8": "77c93129-8abd-4418-a2db-7ded121c4a21"
+        }
+      },
+      "partyID:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "ASUL"
+        }
+      }
+    }
+  }
+}
