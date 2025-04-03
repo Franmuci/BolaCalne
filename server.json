@@ -1,0 +1,166 @@
+{
+  "name": "MeatballCraft, Dimensional Ascension",
+  "pack": "MeatballCraft, Dimensional Ascension",
+  "packId": 0,
+  "version": "Meatballcraft-Server-beta-0.17.0-hotfix2.zip",
+  "isPatchedForLog4Shell": true,
+  "isDev": false,
+  "mods": [],
+  "ignoredUpdates": [],
+  "curseForgeProject": {
+    "id": 411966,
+    "name": "MeatballCraft, Dimensional Ascension",
+    "authors": [
+      {
+        "id": 101456858,
+        "name": "sainagh",
+        "url": "https://www.curseforge.com/members/sainagh"
+      }
+    ],
+    "gameId": 432,
+    "summary": "An expert-level tech-RPG modpack",
+    "categories": [
+      {
+        "name": "Extra Large",
+        "slug": "extra-large",
+        "url": "https://www.curseforge.com/minecraft/modpacks/extra-large",
+        "dateModified": "2015-02-16T15:34:00.357Z",
+        "gameId": 432,
+        "isClass": false,
+        "id": 4482,
+        "iconUrl": "https://media.forgecdn.net/avatars/14/472/635596760403562826.png",
+        "parentCategoryId": 4471,
+        "classId": 4471
+      },
+      {
+        "name": "Adventure and RPG",
+        "slug": "adventure-and-rpg",
+        "url": "https://www.curseforge.com/minecraft/modpacks/adventure-and-rpg",
+        "dateModified": "2015-02-16T15:58:24.98Z",
+        "gameId": 432,
+        "isClass": false,
+        "id": 4475,
+        "iconUrl": "https://media.forgecdn.net/avatars/14/480/635596775049811800.png",
+        "parentCategoryId": 4471,
+        "classId": 4471
+      },
+      {
+        "name": "Sci-Fi",
+        "slug": "sci-fi",
+        "url": "https://www.curseforge.com/minecraft/modpacks/sci-fi",
+        "dateModified": "2015-02-10T21:14:18.107Z",
+        "gameId": 432,
+        "isClass": false,
+        "id": 4474,
+        "iconUrl": "https://media.forgecdn.net/avatars/14/323/635591780581068715.png",
+        "parentCategoryId": 4471,
+        "classId": 4471
+      },
+      {
+        "name": "Tech",
+        "slug": "tech",
+        "url": "https://www.curseforge.com/minecraft/modpacks/tech",
+        "dateModified": "2015-02-16T15:35:53.467Z",
+        "gameId": 432,
+        "isClass": false,
+        "id": 4472,
+        "iconUrl": "https://media.forgecdn.net/avatars/14/479/635596761534662757.png",
+        "parentCategoryId": 4471,
+        "classId": 4471
+      },
+      {
+        "name": "Quests",
+        "slug": "quests",
+        "url": "https://www.curseforge.com/minecraft/modpacks/quests",
+        "dateModified": "2015-02-16T17:06:53.797Z",
+        "gameId": 432,
+        "isClass": false,
+        "id": 4478,
+        "iconUrl": "https://media.forgecdn.net/avatars/14/487/635596816137981263.png",
+        "parentCategoryId": 4471,
+        "classId": 4471
+      }
+    ],
+    "status": 4,
+    "primaryCategoryId": 4474,
+    "classId": 4471,
+    "slug": "meatballcraft",
+    "isFeatured": false,
+    "dateModified": "2025-01-31T21:03:46.33Z",
+    "dateCreated": "2020-10-08T21:10:29.493Z",
+    "dateReleased": "2025-01-31T20:56:12.803Z",
+    "links": {
+      "websiteUrl": "https://www.curseforge.com/minecraft/modpacks/meatballcraft",
+      "wikiUrl": "https://github.com/sainagh/meatballcraft",
+      "sourceUrl": "https://github.com/sainagh/meatballcraft"
+    },
+    "logo": {
+      "id": 533621,
+      "description": "",
+      "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/533/621/256/256/637856423394787271.png",
+      "title": "637856423394787271.png",
+      "url": "https://media.forgecdn.net/avatars/533/621/637856423394787271.png",
+      "modId": 411966
+    },
+    "allowModDistribution": true,
+    "screenshots": [],
+    "mainFileId": 6143840
+  },
+  "curseForgeFile": {
+    "id": 6143873,
+    "gameId": 432,
+    "isAvailable": true,
+    "displayName": "Meatballcraft-Server-beta-0.17.0-hotfix2.zip",
+    "fileName": "Meatballcraft-Server-beta-0.17.0-hotfix2.zip",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "fileDate": "2025-01-31T20:56:12.803Z",
+    "fileLength": 821265026,
+    "dependencies": [],
+    "alternateFileId": 0,
+    "modules": [
+      {
+        "fingerprint": 4134628694,
+        "name": "Meatballcraft-Server-beta-0.17.0-hotfix2"
+      }
+    ],
+    "isServerPack": true,
+    "hashes": [
+      {
+        "value": "7c8a6bfc0c2fe621c227294f57c5cbbf90f855c4",
+        "algo": 1
+      },
+      {
+        "value": "54629bdecdb92cd017fa367f3dd8fb71",
+        "algo": 2
+      }
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionPadded": "0000000001.0000000012",
+        "gameVersion": "1.12",
+        "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+        "gameVersionName": "1.12"
+      },
+      {
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionName": "Forge"
+      },
+      {
+        "gameVersionPadded": "0000000001.0000000012.0000000002",
+        "gameVersion": "1.12.2",
+        "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+        "gameVersionName": "1.12.2"
+      }
+    ],
+    "gameVersions": [
+      "1.12",
+      "Forge",
+      "1.12.2"
+    ],
+    "fileFingerprint": 3180410134,
+    "modId": 411966
+  }
+}
