@@ -203,6 +203,12 @@
     },
     "done": true
   },
+  "nuclearcraft:processors/dissolver": {
+    "criteria": {
+      "has_item": "2025-06-25 20:38:08 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2024-07-13 11:31:44 +0200"
@@ -835,6 +841,12 @@
   "appliedenergistics2:main/interface": {
     "criteria": {
       "certus": "2024-07-29 18:33:24 +0200"
+    },
+    "done": true
+  },
+  "aoa3:voxponds/oops": {
+    "criteria": {
+      "atmosphere_damage": "2025-06-25 21:11:47 +0200"
     },
     "done": true
   },
@@ -2573,6 +2585,12 @@
     },
     "done": true
   },
+  "aoa3:mysterium/its_not_what_it_looks_like": {
+    "criteria": {
+      "shroom_stone_obtain": "2025-06-25 20:22:40 +0200"
+    },
+    "done": true
+  },
   "advancedrocketry:normal/dilithium": {
     "criteria": {
       "dilithium": "2025-03-29 14:41:24 +0100"
@@ -3271,6 +3289,7 @@
       "raw_candlefish": "2024-09-07 15:03:07 +0200",
       "golden_gullfish": "2024-09-08 12:35:13 +0200",
       "rocketfish": "2024-09-08 12:35:42 +0200",
+      "mystic_shrooms": "2025-06-25 20:01:04 +0200",
       "razorfish": "2024-09-08 12:35:26 +0200",
       "fingerfish": "2024-09-08 12:35:44 +0200",
       "rainbowfish": "2024-09-08 12:35:46 +0200",
@@ -3392,6 +3411,12 @@
   "astralsorcery:root": {
     "criteria": {
       "astralsorcery_present": "2024-07-13 11:23:44 +0200"
+    },
+    "done": true
+  },
+  "nuclearcraft:fission/rtg_plutonium": {
+    "criteria": {
+      "has_item": "2025-06-25 21:09:13 +0200"
     },
     "done": true
   },
@@ -4021,6 +4046,12 @@
     },
     "done": true
   },
+  "aoa3:crystevia/root": {
+    "criteria": {
+      "access_crystevia": "2025-06-25 21:21:13 +0200"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2024-07-13 11:36:28 +0200"
@@ -4292,6 +4323,12 @@
   "abyssalcraft:root": {
     "criteria": {
       "necronomicon": "2024-07-17 19:44:46 +0200"
+    },
+    "done": true
+  },
+  "aoa3:celeve/root": {
+    "criteria": {
+      "access_celeve": "2025-06-25 21:45:27 +0200"
     },
     "done": true
   },
@@ -4595,6 +4632,7 @@
   },
   "divinerpg:end/swarm_of_the_void": {
     "criteria": {
+      "ayeraco_green": "2025-06-25 21:02:29 +0200",
       "ayeraco_blue": "2025-06-24 14:42:51 +0200"
     },
     "done": false
@@ -4682,6 +4720,12 @@
   "enderiomachines:basics/sagmill/4_brown": {
     "criteria": {
       "inv_changed-enderio:item_material": "2024-09-05 19:41:38 +0200"
+    },
+    "done": true
+  },
+  "aoa3:deeplands/rock_and_a_hard_place": {
+    "criteria": {
+      "kill_kror": "2025-06-25 21:43:49 +0200"
     },
     "done": true
   },
@@ -4975,6 +5019,12 @@
     },
     "done": true
   },
+  "aoa3:voxponds/root": {
+    "criteria": {
+      "access_voxponds": "2025-06-25 21:00:35 +0200"
+    },
+    "done": true
+  },
   "nuclearcraft:radiation/geiger_counter": {
     "criteria": {
       "has_item": "2024-07-13 19:05:19 +0200"
@@ -5032,6 +5082,12 @@
   "twilightforest:alt/entities/yeti_alpha": {
     "criteria": {
       "hurt_by_indirect": "2024-07-17 17:43:17 +0200"
+    },
+    "done": true
+  },
+  "aoa3:voxponds/how_vile": {
+    "criteria": {
+      "vile_stone_obtain": "2025-06-25 21:13:58 +0200"
     },
     "done": true
   },
@@ -5767,6 +5823,7 @@
       "shadowlord_statue_obtain": "2025-04-07 17:03:21 +0200",
       "corallus_statue_obtain": "2024-08-31 16:36:04 +0200",
       "smash_statue_obtain": "2024-09-07 13:47:00 +0200",
+      "king_shroomus_statue_obtain": "2025-06-25 20:24:15 +0200",
       "mechbot_statue_obtain": "2025-06-24 16:11:26 +0200",
       "creep_statue_obtain": "2025-04-03 22:09:25 +0200",
       "baroness_statue_obtain": "2025-04-13 18:04:41 +0200",

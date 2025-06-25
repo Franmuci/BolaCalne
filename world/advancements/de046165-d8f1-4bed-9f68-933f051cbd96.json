@@ -495,6 +495,12 @@
     },
     "done": true
   },
+  "aoa3:lelyetia/your_home_is_mine": {
+    "criteria": {
+      "kill_graw": "2025-06-25 22:06:06 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_redwood": {
     "criteria": {
       "entered_water": "2024-09-02 19:51:35 +0200"
@@ -681,6 +687,12 @@
     },
     "done": true
   },
+  "aoa3:voxponds/spray_and_wipe": {
+    "criteria": {
+      "kill_voxxulon": "2025-06-25 21:16:36 +0200"
+    },
+    "done": true
+  },
   "tombstone:tutorial/crime_in_town": {
     "criteria": {
       "coded_trigger": "2025-06-24 22:41:56 +0200"
@@ -708,6 +720,12 @@
   "aoa3:precasia/waking_the_ancient_undead": {
     "criteria": {
       "kill_skele_elder": "2025-04-07 16:07:33 +0200"
+    },
+    "done": true
+  },
+  "ebwizardry:crystal": {
+    "criteria": {
+      "criteria_0": "2025-06-25 21:35:42 +0200"
     },
     "done": true
   },
@@ -2775,6 +2793,12 @@
     },
     "done": true
   },
+  "bhc:main/red_heart_canister": {
+    "criteria": {
+      "red_heart_canister_in_inventory": "2025-06-25 20:59:57 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
     "criteria": {
       "has_purple_dye": "2024-11-06 18:46:54 +0100"
@@ -2932,6 +2956,12 @@
     },
     "done": true
   },
+  "aoa3:crystevia/root": {
+    "criteria": {
+      "access_crystevia": "2025-06-25 21:21:14 +0200"
+    },
+    "done": true
+  },
   "minecraft:end/dragon_breath": {
     "criteria": {
       "dragon_breath": "2025-04-10 01:35:47 +0200"
@@ -3079,6 +3109,12 @@
     },
     "done": true
   },
+  "aoa3:celeve/root": {
+    "criteria": {
+      "access_celeve": "2025-06-25 21:45:44 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2024-11-06 19:22:25 +0100"
@@ -3130,6 +3166,12 @@
   "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
     "criteria": {
       "has_glass": "2024-11-06 22:38:19 +0100"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/tower_ghast": {
+    "criteria": {
+      "hurt": "2025-06-25 21:07:32 +0200"
     },
     "done": true
   },
@@ -3323,6 +3365,12 @@
   "minecraft:recipes/building_blocks/blue_stained_hardened_clay": {
     "criteria": {
       "has_hardened_clay": "2025-03-23 19:18:10 +0100"
+    },
+    "done": true
+  },
+  "ebwizardry:root": {
+    "criteria": {
+      "criteria_0": "2025-06-25 21:35:42 +0200"
     },
     "done": true
   },
@@ -3545,6 +3593,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/ur_ghast": {
+    "criteria": {
+      "hurt": "2025-06-25 21:52:06 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
     "criteria": {
       "has_red_flower": "2025-04-07 23:48:52 +0200"
@@ -3671,6 +3725,12 @@
     },
     "done": true
   },
+  "aoa3:voxponds/root": {
+    "criteria": {
+      "access_voxponds": "2025-06-25 21:02:49 +0200"
+    },
+    "done": true
+  },
   "nuclearcraft:radiation/geiger_counter": {
     "criteria": {
       "has_item": "2025-04-01 22:09:14 +0200"
@@ -3716,6 +3776,12 @@
   "techreborn:tree_tap": {
     "criteria": {
       "treetap_in_inventory": "2025-03-28 22:34:27 +0100"
+    },
+    "done": true
+  },
+  "aoa3:voxponds/how_vile": {
+    "criteria": {
+      "vile_stone_obtain": "2025-06-25 21:15:21 +0200"
     },
     "done": true
   },
@@ -3776,6 +3842,12 @@
   "twilightforest:alt/treasures/carminite": {
     "criteria": {
       "carminite": "2025-04-06 19:08:12 +0200"
+    },
+    "done": true
+  },
+  "aoa3:barathos/hive_monarch_down": {
+    "criteria": {
+      "kill_hive_king": "2025-06-25 22:09:34 +0200"
     },
     "done": true
   },
@@ -4041,6 +4113,12 @@
     },
     "done": true
   },
+  "aoa3:barathos/lighter_than_a_duck": {
+    "criteria": {
+      "kill_baroness": "2025-06-25 22:10:47 +0200"
+    },
+    "done": true
+  },
   "aoa3:candyland/root": {
     "criteria": {
       "access_candyland": "2025-06-22 23:38:56 +0200"
@@ -4188,6 +4266,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/ghasts": {
+    "criteria": {
+      "1": "2025-06-25 21:07:32 +0200"
+    },
+    "done": true
+  },
   "ebwizardry:wizard_tower": {
     "criteria": {
       "criteria_0": "2024-09-02 20:45:20 +0200"
@@ -4332,8 +4416,14 @@
       "nethengeic_wither_statue_obtain": "2025-04-03 22:15:27 +0200",
       "graw_statue_obtain": "2025-04-07 16:36:47 +0200",
       "tyrosaur_statue_obtain": "2025-04-13 17:24:18 +0200",
+      "silverfoot_statue_obtain": "2025-06-25 22:04:30 +0200",
+      "crystocore_statue_obtain": "2025-06-25 21:37:01 +0200",
       "corallus_statue_obtain": "2025-04-09 20:37:34 +0200",
-      "skeletron_statue_obtain": "2025-04-07 16:22:39 +0200"
+      "voxxulon_statue_obtain": "2025-06-25 21:16:56 +0200",
+      "skeletron_statue_obtain": "2025-04-07 16:22:39 +0200",
+      "mechbot_statue_obtain": "2025-06-25 22:04:30 +0200",
+      "baroness_statue_obtain": "2025-06-25 22:10:47 +0200",
+      "hive_king_statue_obtain": "2025-06-25 22:09:39 +0200"
     },
     "done": false
   },
@@ -4411,7 +4501,8 @@
   },
   "twilightforest:progress_ur_ghast": {
     "criteria": {
-      "trophy": "2025-03-23 14:26:44 +0100"
+      "trophy": "2025-03-23 14:26:44 +0100",
+      "ghast": "2025-06-25 21:52:20 +0200"
     },
     "done": false
   },
@@ -4490,6 +4581,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2025-03-23 22:39:46 +0100"
+    },
+    "done": true
+  },
+  "aoa3:iromine/root": {
+    "criteria": {
+      "access_iromine": "2025-06-25 22:01:21 +0200"
     },
     "done": true
   },

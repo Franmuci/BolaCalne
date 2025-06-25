@@ -1623,6 +1623,12 @@
     },
     "done": true
   },
+  "aoa3:crystevia/the_angry_crystal": {
+    "criteria": {
+      "kill_crystocore": "2025-06-25 21:36:59 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/prismarine": {
     "criteria": {
       "has_prismarine_shard": "2024-07-27 15:57:19 +0200"
@@ -2383,6 +2389,12 @@
   "biomesoplenty:recipes/transportation/boat_umbran": {
     "criteria": {
       "entered_water": "2024-07-13 11:31:30 +0200"
+    },
+    "done": true
+  },
+  "aoa3:mysterium/shroomed": {
+    "criteria": {
+      "kill_king_shroomus": "2025-06-25 20:24:13 +0200"
     },
     "done": true
   },
@@ -3327,6 +3339,7 @@
       "raw_candlefish": "2024-09-07 15:03:22 +0200",
       "golden_gullfish": "2024-09-07 15:07:00 +0200",
       "rocketfish": "2024-09-07 15:05:49 +0200",
+      "mystic_shrooms": "2025-06-25 20:49:29 +0200",
       "razorfish": "2024-09-07 15:05:38 +0200",
       "fingerfish": "2024-07-14 15:38:29 +0200",
       "rainbowfish": "2024-09-07 15:05:29 +0200",
@@ -3336,6 +3349,7 @@
       "crimson_skipper": "2024-09-07 15:06:28 +0200",
       "hot_rod": "2024-09-19 22:20:51 +0200",
       "raw_pearl_stripefish": "2024-08-20 19:59:18 +0200",
+      "fungal_tea": "2025-06-25 20:22:25 +0200",
       "raw_fingerfish": "2024-07-14 15:38:04 +0200",
       "raw_violet_skipper": "2024-08-25 20:51:23 +0200",
       "raw_sapphire_strider": "2024-07-14 15:38:01 +0200",
@@ -3451,6 +3465,12 @@
   "astralsorcery:root": {
     "criteria": {
       "astralsorcery_present": "2024-07-13 11:22:19 +0200"
+    },
+    "done": true
+  },
+  "nuclearcraft:fission/rtg_plutonium": {
+    "criteria": {
+      "has_item": "2025-06-25 21:01:06 +0200"
     },
     "done": true
   },
@@ -3963,6 +3983,12 @@
     },
     "done": true
   },
+  "aoa3:crystevia/root": {
+    "criteria": {
+      "access_crystevia": "2025-06-25 21:21:27 +0200"
+    },
+    "done": true
+  },
   "minecraft:end/dragon_breath": {
     "criteria": {
       "dragon_breath": "2024-07-25 19:10:11 +0200"
@@ -4202,6 +4228,12 @@
   "twilightforest:alt/treasures/tree_of_time": {
     "criteria": {
       "sapling": "2025-03-23 13:35:19 +0100"
+    },
+    "done": true
+  },
+  "aoa3:celeve/root": {
+    "criteria": {
+      "access_celeve": "2025-06-25 21:45:36 +0200"
     },
     "done": true
   },
@@ -4657,6 +4689,12 @@
   "tombstone:recipes/from_grave_dust": {
     "criteria": {
       "has_ingredient": "2024-07-13 11:40:07 +0200"
+    },
+    "done": true
+  },
+  "aoa3:crystevia/bigger_than_your_average_crystal": {
+    "criteria": {
+      "giant_crystal_obtain": "2025-06-25 21:35:42 +0200"
     },
     "done": true
   },
@@ -5886,6 +5924,7 @@
       "graw_statue_obtain": "2025-06-17 13:25:10 +0200",
       "king_bambambam_statue_obtain": "2024-08-31 15:49:19 +0200",
       "silverfoot_statue_obtain": "2025-06-24 16:14:50 +0200",
+      "kror_statue_obtain": "2025-06-25 21:43:51 +0200",
       "corallus_statue_obtain": "2024-08-24 15:59:23 +0200",
       "smash_statue_obtain": "2024-09-07 13:44:05 +0200",
       "creep_statue_obtain": "2025-04-08 22:23:20 +0200",
