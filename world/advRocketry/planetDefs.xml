@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <galaxy>
     <star blackHole="false" diskAngle="0.0" name="Sol" numGasGiants="0" numPlanets="0" size="1.0" temp="100" x="0" y="0">
+        <planet DIMID="160" customIcon="DesertWorld" name="Falacer">
+            <isKnown>false</isKnown>
+            <forceRiverGeneration>true</forceRiverGeneration>
+            <fogColor>0.9,0.3,0.0</fogColor>
+            <skyColor>0.9,0.3,0.0</skyColor>
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>700</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+            <orbitalPhi>30</orbitalPhi>
+            <retrograde>false</retrograde>
+            <avgTemperature>96</avgTemperature>
+            <rotationalPeriod>10000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+            <generateCraters>false</generateCraters>
+            <generateCaves>false</generateCaves>
+            <generateVolcanos>false</generateVolcanos>
+            <generateStructures>false</generateStructures>
+            <generateGeodes>false</generateGeodes>
+            <seaLevel>63</seaLevel>
+            <biomeIds>advancedrocketry:volcanicbarren;30</biomeIds>
+            <planet DIMID="161" customIcon="moon" name="Orcus">
+                <isKnown>true</isKnown>
+                <forceRiverGeneration>true</forceRiverGeneration>
+                <fogColor>0.9,0.3,0.0</fogColor>
+                <skyColor>0.9,0.3,0.0</skyColor>
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>20</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
+                <orbitalPhi>30</orbitalPhi>
+                <retrograde>false</retrograde>
+                <avgTemperature>572</avgTemperature>
+                <rotationalPeriod>10000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <generateCraters>false</generateCraters>
+                <generateCaves>false</generateCaves>
+                <generateVolcanos>false</generateVolcanos>
+                <generateStructures>false</generateStructures>
+                <generateGeodes>false</generateGeodes>
+                <seaLevel>63</seaLevel>
+                <biomeIds>advancedrocketry:volcanicbarren;30</biomeIds>
+            </planet>
+        </planet>
         <planet DIMID="0" customIcon="earthlike" dimMapping="" name="Terra">
             <isKnown>true</isKnown>
             <forceRiverGeneration>true</forceRiverGeneration>
@@ -80,48 +122,6 @@
                 <generateStructures>false</generateStructures>
                 <generateGeodes>false</generateGeodes>
                 <seaLevel>63</seaLevel>
-            </planet>
-        </planet>
-        <planet DIMID="160" customIcon="DesertWorld" name="Falacer">
-            <isKnown>false</isKnown>
-            <forceRiverGeneration>true</forceRiverGeneration>
-            <fogColor>0.9,0.3,0.0</fogColor>
-            <skyColor>0.9,0.3,0.0</skyColor>
-            <gravitationalMultiplier>10</gravitationalMultiplier>
-            <orbitalDistance>700</orbitalDistance>
-            <orbitalTheta>0</orbitalTheta>
-            <orbitalPhi>30</orbitalPhi>
-            <retrograde>false</retrograde>
-            <avgTemperature>96</avgTemperature>
-            <rotationalPeriod>10000</rotationalPeriod>
-            <atmosphereDensity>0</atmosphereDensity>
-            <generateCraters>false</generateCraters>
-            <generateCaves>false</generateCaves>
-            <generateVolcanos>false</generateVolcanos>
-            <generateStructures>false</generateStructures>
-            <generateGeodes>false</generateGeodes>
-            <seaLevel>63</seaLevel>
-            <biomeIds>advancedrocketry:volcanicbarren;30</biomeIds>
-            <planet DIMID="161" customIcon="moon" name="Orcus">
-                <isKnown>true</isKnown>
-                <forceRiverGeneration>true</forceRiverGeneration>
-                <fogColor>0.9,0.3,0.0</fogColor>
-                <skyColor>0.9,0.3,0.0</skyColor>
-                <gravitationalMultiplier>10</gravitationalMultiplier>
-                <orbitalDistance>20</orbitalDistance>
-                <orbitalTheta>0</orbitalTheta>
-                <orbitalPhi>30</orbitalPhi>
-                <retrograde>false</retrograde>
-                <avgTemperature>96</avgTemperature>
-                <rotationalPeriod>10000</rotationalPeriod>
-                <atmosphereDensity>0</atmosphereDensity>
-                <generateCraters>false</generateCraters>
-                <generateCaves>false</generateCaves>
-                <generateVolcanos>false</generateVolcanos>
-                <generateStructures>false</generateStructures>
-                <generateGeodes>false</generateGeodes>
-                <seaLevel>63</seaLevel>
-                <biomeIds>advancedrocketry:volcanicbarren;30</biomeIds>
             </planet>
         </planet>
         <planet DIMID="2" customIcon="GasGiantRed" name="Vulcan">
@@ -212,6 +212,29 @@
             <seaLevel>63</seaLevel>
             <biomeIds>minecraft:mushroom_island;30</biomeIds>
         </planet>
+        <planet DIMID="147" customIcon="IceWorld" name="Sedna">
+            <isKnown>false</isKnown>
+            <forceRiverGeneration>true</forceRiverGeneration>
+            <fogColor>0.0,0.2,0.9</fogColor>
+            <skyColor>0.0,0.2,0.9</skyColor>
+            <gravitationalMultiplier>55</gravitationalMultiplier>
+            <orbitalDistance>900</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+            <orbitalPhi>5</orbitalPhi>
+            <retrograde>false</retrograde>
+            <avgTemperature>85</avgTemperature>
+            <rotationalPeriod>60000</rotationalPeriod>
+            <atmosphereDensity>20</atmosphereDensity>
+            <generateCraters>false</generateCraters>
+            <generateCaves>false</generateCaves>
+            <generateVolcanos>false</generateVolcanos>
+            <generateStructures>false</generateStructures>
+            <generateGeodes>false</generateGeodes>
+            <seaLevel>63</seaLevel>
+            <biomeIds>advancedrocketry:crystalchasms;30</biomeIds>
+            <artifact>contenttweaker:sedna_artifact 0 1</artifact>
+            <fillerBlock>minecraft:stone</fillerBlock>
+        </planet>
         <planet DIMID="3" customIcon="GasGiantBrown" name="Ceres">
             <isKnown>false</isKnown>
             <hasRings>true</hasRings>
@@ -237,29 +260,6 @@
             <generateStructures>false</generateStructures>
             <generateGeodes>false</generateGeodes>
             <seaLevel>63</seaLevel>
-        </planet>
-        <planet DIMID="147" customIcon="IceWorld" name="Sedna">
-            <isKnown>false</isKnown>
-            <forceRiverGeneration>true</forceRiverGeneration>
-            <fogColor>0.0,0.2,0.9</fogColor>
-            <skyColor>0.0,0.2,0.9</skyColor>
-            <gravitationalMultiplier>55</gravitationalMultiplier>
-            <orbitalDistance>900</orbitalDistance>
-            <orbitalTheta>0</orbitalTheta>
-            <orbitalPhi>5</orbitalPhi>
-            <retrograde>false</retrograde>
-            <avgTemperature>85</avgTemperature>
-            <rotationalPeriod>60000</rotationalPeriod>
-            <atmosphereDensity>20</atmosphereDensity>
-            <generateCraters>false</generateCraters>
-            <generateCaves>false</generateCaves>
-            <generateVolcanos>false</generateVolcanos>
-            <generateStructures>false</generateStructures>
-            <generateGeodes>false</generateGeodes>
-            <seaLevel>63</seaLevel>
-            <biomeIds>advancedrocketry:crystalchasms;30</biomeIds>
-            <artifact>contenttweaker:sedna_artifact 0 1</artifact>
-            <fillerBlock>minecraft:stone</fillerBlock>
         </planet>
         <planet DIMID="148" customIcon="DesertWorld" name="Osiris">
             <isKnown>false</isKnown>
