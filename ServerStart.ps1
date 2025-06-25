@@ -82,9 +82,9 @@ function CheckJava {
     $errored = $false
     & $JAVA_PATH -version
     WriteToLog "DEBUG: JAVA version output: $(& $JAVA_PATH -version 2>&1)"
-    if ($useCleanroom -and ($version.Major -ne 22)) {
+    if ($useCleanroom -and ($version.Major -lt 21)) {
         Write-Host "ERROR: Invalid java version found. Check your environment variables or set JAVA_PATH in settings.cfg." -ForegroundColor red
-        Write-Host "Using Cleanroom, which requires Java 22, but found $($version).`nIf you want to use Cleanroom with your current Java, set 'USE_CLEANROOM = true' in settings.cfg." -ForegroundColor red
+        Write-Host "Using Cleanroom, which requires Java 21 or higher, but found $($version).`nIf you want to use Cleanroom with your current Java, set 'USE_CLEANROOM = true' in settings.cfg." -ForegroundColor red
         $errored = $true
     }
     elseif (-not ($useCleanroom) -and ($version.Major -ne 8)) {
@@ -92,19 +92,24 @@ function CheckJava {
         Write-Host "Using Forge, which requires Java 8, but found $($version).`nIf you want to use Forge with your current Java, set 'USE_CLEANROOM = false' in settings.cfg." -ForegroundColor red
         $errored = $true
     }
+    if ($errored) {
+        ExitError
+    }
 
     $bitness = & $JAVA_PATH -XshowSettings:properties -version 2>&1 | Select-String -Pattern sun.arch.data.model | ConvertFrom-StringData
     $bitness.GetEnumerator() | ForEach-Object {
         if ($_.Value -eq 64) {
             WriteToLog "INFO: Found 64-bit Java $($version)"
         }
-        else {
+        elseif ($_.Value -eq 32) {
             WriteToLog "INFO: Found 32-bit Java $($version)"
             Write-Host "ERROR: 32-bit java version found. Please install 64-bit java." -ForegroundColor red
-            $errored = $true
-        }
-        if ($errored) {
             ExitError
+        }
+        # Looks like some JVMs don't report `sun.arch.data.model`
+        else {
+            WriteToLog "WARN: Couldn't determine if Java $($version) is 32 or 64-bit"
+            Write-Host "WARN: Couldn't determine if Java $($version) is 64-bit, proceeding anyway!" -ForegroundColor yellow
         }
     }
 }
@@ -204,10 +209,15 @@ function ReinstallLoader {
     WriteToLog "INFO: Starting $($LOADER_NAME) install now, details below:"
     $installerName = "installer-$($LOADER_NAME)-$($LOADER_VER).jar"
     WriteToLog "--------------------------"
-    & $JAVA_PATH -jar $installerName --installServer 2>&1 | Out-File -FilePath $PSScriptRoot/"logs/serverstart.log" -Append
+    & $JAVA_PATH -jar $PSScriptRoot/$installerName --installServer $PSScriptRoot 2>&1 | 
+        Tee-Object -FilePath $PSScriptRoot/"logs/serverstart.log" -Append | 
+        ForEach-Object -Process { Write-Progress -Activity "Installing" -Status "$_" } -End {
+            Write-Progress -Completed -Activity "Installation complete!"
+            Write-Host "Installation complete!" 
+        }
     WriteToLog "--------------------------"
     Remove-Item $installerName
-    Remove-Item "installer.log"
+    Remove-Item "*installer*.log"
 }
 
 function CheckSetup {
@@ -455,7 +465,7 @@ do {
         $dateTime = $dateTimeNow
         $stopCounter = 0
     }
-    # Reset if reached max failures
+    # Exit if reached max failures
     elseif ($stopCounter -ge $settings["CRASH_COUNT"]) {
         WriteToLog "INFO: Last crash/startup was $(-$secs)+ seconds ago"
         Write-Host "`n`n===================================================" -ForegroundColor red
@@ -470,8 +480,8 @@ do {
         WriteToLog "INFO: Last crash/startup was $(-$secs)+ seconds ago"
         $dateTime = $dateTimeNow
         WriteToLog "Total consecutive crash/stops within time threshold: $($stopCounter)"
-        Write-Host "`n`n`nServer will re-start *automatically* in less than 30 seconds..."
-        $restartEntire = PromptRestart
     }
+    Write-Host "`n`n`nServer will re-start *automatically* in less than 30 seconds..."
+    $restartEntire = PromptRestart
 }
 while ($restartEntire)
