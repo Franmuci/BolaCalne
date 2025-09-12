@@ -191,7 +191,7 @@
         <planet DIMID="146" customIcon="Venusian" name="Haumea">
             <isKnown>false</isKnown>
             <hasRings>true</hasRings>
-            <ringAngle>0</ringAngle>
+            <ringAngle>70</ringAngle>
             <ringColor>0.4,0.4,0.7</ringColor>
             <forceRiverGeneration>true</forceRiverGeneration>
             <fogColor>0.5,0.0,0.5</fogColor>
@@ -238,7 +238,7 @@
         <planet DIMID="3" customIcon="GasGiantBrown" name="Ceres">
             <isKnown>false</isKnown>
             <hasRings>true</hasRings>
-            <ringAngle>0</ringAngle>
+            <ringAngle>70</ringAngle>
             <ringColor>0.4,0.4,0.7</ringColor>
             <forceRiverGeneration>true</forceRiverGeneration>
             <GasGiant>true</GasGiant>
@@ -282,20 +282,20 @@
             <seaLevel>63</seaLevel>
             <biomeIds>advancedrocketry:hotdryrock;30,nuclearcraft:nuclear_wasteland;30</biomeIds>
         </planet>
-        <planet DIMID="5" customIcon="GasGiantBlue" name="Aventus">
+        <planet DIMID="5" customIcon="GasGiantBlue" name="Liber">
             <isKnown>false</isKnown>
             <forceRiverGeneration>true</forceRiverGeneration>
             <GasGiant>true</GasGiant>
             <gas>cryotheum</gas>
             <gas>helium</gas>
-            <fogColor>0.0,0.0,0.6</fogColor>
-            <skyColor>0.0,0.0,0.6</skyColor>
+            <fogColor>0.0,0.1,0.9</fogColor>
+            <skyColor>0.0,0.1,0.9</skyColor>
             <gravitationalMultiplier>100</gravitationalMultiplier>
-            <orbitalDistance>600</orbitalDistance>
+            <orbitalDistance>500</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>0</orbitalPhi>
             <retrograde>false</retrograde>
-            <avgTemperature>117</avgTemperature>
+            <avgTemperature>128</avgTemperature>
             <rotationalPeriod>24000</rotationalPeriod>
             <atmosphereDensity>100</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -378,7 +378,7 @@
         <planet DIMID="163" customIcon="MarsLike" name="Rhenia">
             <isKnown>false</isKnown>
             <hasRings>true</hasRings>
-            <ringAngle>0</ringAngle>
+            <ringAngle>70</ringAngle>
             <ringColor>0.4,0.4,0.7</ringColor>
             <forceRiverGeneration>true</forceRiverGeneration>
             <fogColor>0.1,0.0,0.0</fogColor>
@@ -403,7 +403,7 @@
         <planet DIMID="164" customIcon="EarthLike" name="Myrmex">
             <isKnown>false</isKnown>
             <hasRings>true</hasRings>
-            <ringAngle>0</ringAngle>
+            <ringAngle>70</ringAngle>
             <ringColor>0.4,0.4,0.7</ringColor>
             <forceRiverGeneration>true</forceRiverGeneration>
             <fogColor>0.3,0.2,0.0</fogColor>

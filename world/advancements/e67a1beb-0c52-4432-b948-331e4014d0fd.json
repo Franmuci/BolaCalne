@@ -573,6 +573,12 @@
     },
     "done": true
   },
+  "aoa3:gardencia/green_thumb_of_death": {
+    "criteria": {
+      "kill_vinocorne": "2025-06-26 15:20:11 +0200"
+    },
+    "done": true
+  },
   "bhc:main/root": {
     "criteria": {
       "red_heart_in_inventory": "2024-07-13 11:39:01 +0200"
@@ -3342,12 +3348,14 @@
       "mystic_shrooms": "2025-06-25 20:49:29 +0200",
       "razorfish": "2024-09-07 15:05:38 +0200",
       "fingerfish": "2024-07-14 15:38:29 +0200",
+      "sour_candy": "2025-06-26 14:30:39 +0200",
       "rainbowfish": "2024-09-07 15:05:29 +0200",
       "turquoise_stripefish": "2024-09-07 15:09:42 +0200",
       "raw_razorfish": "2024-09-07 15:05:32 +0200",
       "raw_rocketfish": "2024-09-07 15:03:24 +0200",
       "crimson_skipper": "2024-09-07 15:06:28 +0200",
       "hot_rod": "2024-09-19 22:20:51 +0200",
+      "nature_melon_slice": "2025-06-26 14:55:34 +0200",
       "raw_pearl_stripefish": "2024-08-20 19:59:18 +0200",
       "fungal_tea": "2025-06-25 20:22:25 +0200",
       "raw_fingerfish": "2024-07-14 15:38:04 +0200",
@@ -3360,7 +3368,8 @@
       "raw_golden_gullfish": "2024-09-07 15:07:06 +0200",
       "chimera_chop": "2024-07-17 16:09:09 +0200",
       "raw_sailback": "2024-08-20 19:59:15 +0200",
-      "violet_skipper": "2024-09-07 15:07:03 +0200"
+      "violet_skipper": "2024-09-07 15:07:03 +0200",
+      "sour_gummy": "2025-06-26 14:31:28 +0200"
     },
     "done": false
   },
@@ -5560,6 +5569,12 @@
     },
     "done": true
   },
+  "aoa3:gardencia/flowers_for_all": {
+    "criteria": {
+      "petals_obtain": "2025-06-26 15:19:12 +0200"
+    },
+    "done": true
+  },
   "tombstone:tutorial/create_voodoo_poppet": {
     "criteria": {
       "has_voodoo_poppet": "2024-09-04 18:16:30 +0200"
@@ -5927,6 +5942,7 @@
       "kror_statue_obtain": "2025-06-25 21:43:51 +0200",
       "corallus_statue_obtain": "2024-08-24 15:59:23 +0200",
       "smash_statue_obtain": "2024-09-07 13:44:05 +0200",
+      "vinocorne_statue_obtain": "2025-06-26 15:27:16 +0200",
       "creep_statue_obtain": "2025-04-08 22:23:20 +0200",
       "baroness_statue_obtain": "2025-04-03 21:52:55 +0200",
       "hive_king_statue_obtain": "2025-04-03 21:57:15 +0200"
@@ -6078,6 +6094,12 @@
   "mod_lavacow:mod_lavacow/kill_zombiemushroom": {
     "criteria": {
       "kill_zombiemushroom": "2024-07-13 20:34:54 +0200"
+    },
+    "done": true
+  },
+  "aoa3:gardencia/root": {
+    "criteria": {
+      "access_gardencia": "2025-06-26 14:40:42 +0200"
     },
     "done": true
   },
