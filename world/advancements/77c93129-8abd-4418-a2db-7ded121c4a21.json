@@ -164,11 +164,21 @@
   "erebus:exploration/kill_all": {
     "criteria": {
       "kill_black_widow": "2024-07-14 10:34:34 +0200",
+      "kill_bot_fly": "2025-09-12 18:34:51 +0200",
+      "kill_mosquito": "2025-09-12 18:42:48 +0200",
+      "kill_beetle": "2025-09-16 19:23:56 +0200",
       "kill_scytodes": "2024-08-26 15:40:50 +0200",
       "kill_zombie_ant": "2025-04-07 15:57:11 +0200",
+      "kill_glow_worm": "2025-09-16 19:27:39 +0200",
+      "kill_scorpion": "2025-09-16 19:29:29 +0200",
       "kill_centipede": "2024-07-26 18:56:37 +0200",
+      "kill_tarantula": "2025-09-16 19:26:24 +0200",
+      "kill_fly": "2025-09-16 19:29:28 +0200",
+      "kill_beetle_larva": "2025-09-16 19:27:00 +0200",
       "kill_zombie_ant_soldier": "2025-04-07 15:56:56 +0200",
       "kill_jumping_spider": "2024-08-26 15:40:00 +0200",
+      "kill_midge_swarm": "2025-09-12 18:36:18 +0200",
+      "kill_grasshopper": "2025-09-16 19:23:57 +0200",
       "kill_wasp": "2025-06-16 18:27:05 +0200"
     },
     "done": false
@@ -305,6 +315,12 @@
     },
     "done": true
   },
+  "aoa3:iromine/ooh_shiny": {
+    "criteria": {
+      "gold_spring_obtain": "2025-09-20 14:00:50 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/fence_gate": {
     "criteria": {
       "has_planks": "2024-07-13 15:09:52 +0200"
@@ -433,6 +449,18 @@
     },
     "done": true
   },
+  "twilightforest:quest_ram": {
+    "criteria": {
+      "quest_ram_complete": "2025-09-14 17:51:57 +0200"
+    },
+    "done": true
+  },
+  "aoa3:candyland/no_treat_only_trick": {
+    "criteria": {
+      "kill_cotton_candor": "2025-09-19 18:27:55 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/sugar": {
     "criteria": {
       "has_reeds": "2024-07-13 12:56:07 +0200"
@@ -496,6 +524,12 @@
   "biomesoplenty:recipes/redstone/trapdoor_from_bop_wood": {
     "criteria": {
       "has_the_recipe": "2024-07-13 11:58:16 +0200"
+    },
+    "done": true
+  },
+  "aoa3:completionist/green_thumb": {
+    "criteria": {
+      "gardener_obtain": "2025-09-14 16:17:58 +0200"
     },
     "done": true
   },
@@ -639,6 +673,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-09-14 16:11:25 +0200"
+    },
+    "done": true
+  },
   "tombstone:tutorial/use_frost_resistance": {
     "criteria": {
       "coded_trigger": "2024-07-13 17:00:43 +0200"
@@ -661,6 +701,12 @@
   "biomesoplenty:recipes/decorations/origin_terrarium": {
     "criteria": {
       "has_jar": "2024-07-14 18:14:18 +0200"
+    },
+    "done": true
+  },
+  "aoa3:haven/root": {
+    "criteria": {
+      "access_haven": "2025-09-21 20:47:52 +0200"
     },
     "done": true
   },
@@ -1516,6 +1562,12 @@
     },
     "done": true
   },
+  "aoa3:iromine/should_be_a_mechanic": {
+    "criteria": {
+      "mecha_staff_obtain": "2025-09-19 17:57:37 +0200"
+    },
+    "done": false
+  },
   "divinerpg:overworld/feeding_on_the_fish": {
     "criteria": {
       "kill_shark": "2024-07-27 11:19:32 +0200"
@@ -1579,6 +1631,12 @@
   "bhc:main/yellow_heart": {
     "criteria": {
       "orange_heart_in_inventory": "2024-07-16 12:25:02 +0200"
+    },
+    "done": true
+  },
+  "aoa3:haven/lighthearted_surgery": {
+    "criteria": {
+      "voliant_heart_obtain": "2025-09-21 21:27:45 +0200"
     },
     "done": true
   },
@@ -1798,6 +1856,18 @@
     },
     "done": true
   },
+  "divinerpg:arcana/evil_disease": {
+    "criteria": {
+      "kill_boss_parasecta": "2025-09-21 21:39:14 +0200"
+    },
+    "done": true
+  },
+  "extrabotany:main/excalibercraft": {
+    "criteria": {
+      "ebt_trigger": "2025-09-19 18:11:24 +0200"
+    },
+    "done": true
+  },
   "projecte:transmutation_tablet": {
     "criteria": {
       "trans_tablet": "2024-09-02 19:45:42 +0200"
@@ -1926,6 +1996,12 @@
     },
     "done": true
   },
+  "mod_lavacow:mod_lavacow/kill_ghost_swarmer": {
+    "criteria": {
+      "kill_ghost_swarmer": "2025-09-16 21:58:27 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/buildingblocks/magic_stairs": {
     "criteria": {
       "has_planks": "2024-08-24 16:14:46 +0200"
@@ -1998,6 +2074,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/dragonsteel": {
+    "criteria": {
+      "lightning": "2025-09-14 17:03:44 +0200"
+    },
+    "done": true
+  },
   "twilightforest:alt/biomes/dark_forest": {
     "criteria": {
       "0": "2024-07-17 17:47:55 +0200"
@@ -2010,18 +2092,26 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/buildingblocks/sacred_oak_wooden_slab": {
+    "criteria": {
+      "has_planks": "2025-09-20 19:00:48 +0200"
+    },
+    "done": true
+  },
   "twilightforest:arborist": {
     "criteria": {
       "trans_sapling": "2025-03-23 13:49:03 +0100",
       "time_sapling": "2025-03-23 13:49:03 +0100",
       "trans_log": "2025-03-23 13:43:35 +0100",
       "twilight_oak_log": "2024-07-17 17:10:16 +0200",
+      "mangrove_planks": "2025-09-20 13:03:40 +0200",
       "mine_sapling": "2025-03-23 13:49:03 +0100",
       "canopy_log": "2024-07-17 16:54:44 +0200",
       "sort_sapling": "2025-03-23 13:49:03 +0100",
       "tower_wood": "2024-07-17 18:01:53 +0200",
       "root": "2025-03-23 13:44:57 +0100",
-      "time_log": "2025-03-23 13:41:50 +0100"
+      "time_log": "2025-03-23 13:41:50 +0100",
+      "mangrove_log": "2025-09-20 13:03:41 +0200"
     },
     "done": false
   },
@@ -2170,6 +2260,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/biomes/twilight_clearing": {
+    "criteria": {
+      "discover": "2025-09-14 17:08:31 +0200"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2024-07-13 11:36:07 +0200"
@@ -2281,6 +2377,12 @@
       "inv_changed-enderio:liquid_conduit_ender2": "2024-08-31 17:05:40 +0200"
     },
     "done": false
+  },
+  "divinerpg:twilight/forest_scourge": {
+    "criteria": {
+      "kill_boss_termasect": "2025-09-17 18:21:26 +0200"
+    },
+    "done": true
   },
   "ebwizardry:all_artefacts": {
     "criteria": {
@@ -2501,6 +2603,12 @@
     },
     "done": true
   },
+  "aoa3:haven/guard_that": {
+    "criteria": {
+      "kill_four_guardians": "2025-09-21 20:49:23 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_magic": {
     "criteria": {
       "entered_water": "2024-07-13 11:37:04 +0200"
@@ -2546,6 +2654,12 @@
   "erebus:exploration/jade_ore": {
     "criteria": {
       "collect_jade": "2025-04-03 20:31:15 +0200"
+    },
+    "done": true
+  },
+  "aether_legacy:recipes/misc/gold_parachute": {
+    "criteria": {
+      "has_cloud": "2025-09-20 13:50:48 +0200"
     },
     "done": true
   },
@@ -2737,6 +2851,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-09-14 16:11:25 +0200"
+    },
+    "done": true
+  },
   "thebetweenlands:fighter/a_spiky_matter": {
     "criteria": {
       "primordial_malevolence": "2024-08-22 19:27:02 +0200"
@@ -2746,6 +2866,12 @@
   "minecraft:recipes/decorations/snow_layer": {
     "criteria": {
       "has_snowball": "2024-07-13 16:00:05 +0200"
+    },
+    "done": true
+  },
+  "aoa3:candyland/when_push_comes_to_shove": {
+    "criteria": {
+      "wind_staff_kill": "2025-09-19 18:27:55 +0200"
     },
     "done": true
   },
@@ -2770,6 +2896,12 @@
   "tombstone:tutorial/use_disenchantment": {
     "criteria": {
       "coded_trigger": "2024-07-13 20:11:50 +0200"
+    },
+    "done": true
+  },
+  "bewitchment:loom": {
+    "criteria": {
+      "loom": "2025-09-14 16:05:51 +0200"
     },
     "done": true
   },
@@ -2878,11 +3010,16 @@
   },
   "erebus:exploration/traveller": {
     "criteria": {
+      "fungal": "2025-09-12 18:35:29 +0200",
+      "petrified": "2025-09-12 18:35:08 +0200",
       "savannah": "2025-06-16 16:52:33 +0200",
       "elysian": "2025-06-25 13:46:39 +0200",
-      "jungle": "2025-06-25 13:46:48 +0200"
+      "jungle": "2025-06-25 13:46:48 +0200",
+      "desert": "2025-09-12 18:35:10 +0200",
+      "swamp": "2025-09-12 18:36:13 +0200",
+      "outback": "2025-09-12 18:34:22 +0200"
     },
-    "done": false
+    "done": true
   },
   "biomesoplenty:recipes/transportation/boat_ebony": {
     "criteria": {
@@ -3239,6 +3376,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/buildingblocks/sacred_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-09-20 19:00:48 +0200"
+    },
+    "done": true
+  },
   "twilightforest:alt/major_landmarks/hydra_lair": {
     "criteria": {
       "discover": "2024-07-17 17:34:21 +0200"
@@ -3269,6 +3412,12 @@
     },
     "done": true
   },
+  "divinerpg:vethea/ever_cry_never_life": {
+    "criteria": {
+      "obtain_evernight": "2025-09-19 18:41:02 +0200"
+    },
+    "done": false
+  },
   "aoa3:completionist/an_unbalanced_diet": {
     "criteria": {
       "raw_crimson_skipper": "2024-09-08 12:35:00 +0200",
@@ -3285,18 +3434,21 @@
       "sapphire_strider": "2024-07-14 16:51:53 +0200",
       "raw_ursa_meat": "2024-07-14 19:10:55 +0200",
       "raw_rainbowfish": "2024-09-08 12:35:32 +0200",
+      "rosidons": "2025-09-13 16:49:16 +0200",
       "ursa_meat": "2024-07-14 19:13:26 +0200",
       "raw_candlefish": "2024-09-07 15:03:07 +0200",
       "golden_gullfish": "2024-09-08 12:35:13 +0200",
       "rocketfish": "2024-09-08 12:35:42 +0200",
       "mystic_shrooms": "2025-06-25 20:01:04 +0200",
       "razorfish": "2024-09-08 12:35:26 +0200",
+      "raw_halycon_beef": "2025-09-21 21:27:17 +0200",
       "fingerfish": "2024-09-08 12:35:44 +0200",
       "rainbowfish": "2024-09-08 12:35:46 +0200",
       "turquoise_stripefish": "2024-09-08 12:35:59 +0200",
       "raw_razorfish": "2024-09-08 12:35:29 +0200",
       "raw_rocketfish": "2024-09-07 15:03:10 +0200",
       "crimson_skipper": "2024-09-08 12:35:09 +0200",
+      "nature_melon_slice": "2025-09-13 16:12:56 +0200",
       "raw_pearl_stripefish": "2024-08-20 19:06:09 +0200",
       "raw_fingerfish": "2024-07-14 15:40:20 +0200",
       "raw_violet_skipper": "2024-09-08 12:34:55 +0200",
@@ -3307,7 +3459,8 @@
       "raw_golden_gullfish": "2024-09-08 12:34:57 +0200",
       "chimera_chop": "2024-07-17 16:07:02 +0200",
       "raw_sailback": "2024-08-20 19:05:59 +0200",
-      "violet_skipper": "2024-09-08 12:35:11 +0200"
+      "violet_skipper": "2024-09-08 12:35:11 +0200",
+      "sour_gummy": "2025-09-20 12:25:46 +0200"
     },
     "done": false
   },
@@ -3763,6 +3916,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/redstone/sacred_oak_door": {
+    "criteria": {
+      "has_planks": "2025-09-20 19:00:48 +0200"
+    },
+    "done": true
+  },
   "bewitchment:mined_opal": {
     "criteria": {
       "hat": "2024-07-13 17:06:31 +0200"
@@ -3772,6 +3931,12 @@
   "astralsorcery:perk_level_large": {
     "criteria": {
       "gain_perk_level_large": "2024-08-18 20:30:08 +0200"
+    },
+    "done": true
+  },
+  "extrabotany:main/jingweifeatherget": {
+    "criteria": {
+      "ebt_trigger": "2025-09-19 18:11:25 +0200"
     },
     "done": true
   },
@@ -3869,6 +4034,12 @@
     },
     "done": true
   },
+  "aoa3:candyland/trick_or_treat": {
+    "criteria": {
+      "treat_bag_obtain": "2025-09-14 20:48:51 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_at_least_9_gold_ingot": "2024-07-13 12:10:49 +0200"
@@ -3884,6 +4055,12 @@
   "rftools:specialores": {
     "criteria": {
       "find_ores": "2024-07-14 10:35:04 +0200"
+    },
+    "done": true
+  },
+  "aoa3:iromine/not_legal_tender": {
+    "criteria": {
+      "silvro_coin_obtain": "2025-09-20 14:21:44 +0200"
     },
     "done": true
   },
@@ -4308,6 +4485,12 @@
     },
     "done": true
   },
+  "aoa3:haven/my_rock_collection": {
+    "criteria": {
+      "heavy_boulder_obtain": "2025-09-21 21:28:42 +0200"
+    },
+    "done": true
+  },
   "twilightforest:alt/major_landmarks/naga_courtyard": {
     "criteria": {
       "discover": "2024-07-17 16:59:59 +0200"
@@ -4558,6 +4741,12 @@
     },
     "done": true
   },
+  "mod_lavacow:mod_lavacow/get_hatred_shard": {
+    "criteria": {
+      "get_hatred_shard": "2025-09-20 13:23:32 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_cherry": {
     "criteria": {
       "entered_water": "2024-07-13 11:37:04 +0200"
@@ -4606,6 +4795,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-09-14 16:11:25 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2024-07-13 11:40:21 +0200"
@@ -4633,6 +4828,7 @@
   "divinerpg:end/swarm_of_the_void": {
     "criteria": {
       "ayeraco_green": "2025-06-25 21:02:29 +0200",
+      "ayeraco_yellow": "2025-09-20 13:17:59 +0200",
       "ayeraco_blue": "2025-06-24 14:42:51 +0200"
     },
     "done": false
@@ -4777,6 +4973,7 @@
       "ice_flats": "2024-07-14 13:55:25 +0200",
       "frozen_river": "2024-07-14 19:21:27 +0200",
       "forest": "2024-07-14 14:01:41 +0200",
+      "mesa_rock": "2025-09-20 18:46:41 +0200",
       "swampland": "2024-07-13 11:33:44 +0200",
       "birch_forest": "2024-07-23 18:16:40 +0200",
       "deep_ocean": "2024-07-14 19:21:16 +0200",
@@ -4824,6 +5021,12 @@
   "tombstone:tutorial/strong_undead": {
     "criteria": {
       "coded_trigger": "2024-07-16 12:25:00 +0200"
+    },
+    "done": true
+  },
+  "dimdoors:dimdoor/root": {
+    "criteria": {
+      "entered_end": "2025-09-21 21:33:03 +0200"
     },
     "done": true
   },
@@ -4917,6 +5120,12 @@
     },
     "done": true
   },
+  "astralsorcery:find_weak_constellation": {
+    "criteria": {
+      "weak_constellation_discovered": "2025-09-16 18:29:44 +0200"
+    },
+    "done": true
+  },
   "tombstone:tutorial/use_true_sight": {
     "criteria": {
       "coded_trigger": "2024-07-25 21:29:43 +0200"
@@ -4932,6 +5141,12 @@
   "minecraft:recipes/building_blocks/melon_block": {
     "criteria": {
       "has_melon": "2024-07-13 11:39:38 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/sacred_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-09-20 19:00:48 +0200"
     },
     "done": true
   },
@@ -5124,6 +5339,12 @@
   "minecraft:recipes/redstone/trapdoor": {
     "criteria": {
       "has_planks": "2024-07-13 11:58:16 +0200"
+    },
+    "done": true
+  },
+  "erebus:exploration/find_beetles": {
+    "criteria": {
+      "dmg_beetle": "2025-09-16 19:23:56 +0200"
     },
     "done": true
   },
@@ -5505,6 +5726,12 @@
     },
     "done": true
   },
+  "aoa3:candyland/root": {
+    "criteria": {
+      "access_candyland": "2025-09-12 18:18:54 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
       "has_cobblestone": "2024-07-13 11:36:07 +0200"
@@ -5598,6 +5825,12 @@
   "projecte:dark_matter": {
     "criteria": {
       "dm": "2024-07-28 18:06:39 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/sacred_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-09-20 19:00:48 +0200"
     },
     "done": true
   },
@@ -5819,13 +6052,17 @@
     "criteria": {
       "nethengeic_wither_statue_obtain": "2025-04-03 22:14:41 +0200",
       "tyrosaur_statue_obtain": "2025-04-07 16:11:39 +0200",
+      "rockrider_statue_obtain": "2025-09-21 21:30:33 +0200",
+      "silverfoot_statue_obtain": "2025-09-21 21:54:24 +0200",
       "kror_statue_obtain": "2025-04-03 22:24:13 +0200",
       "shadowlord_statue_obtain": "2025-04-07 17:03:21 +0200",
       "corallus_statue_obtain": "2024-08-31 16:36:04 +0200",
       "smash_statue_obtain": "2024-09-07 13:47:00 +0200",
       "king_shroomus_statue_obtain": "2025-06-25 20:24:15 +0200",
       "mechbot_statue_obtain": "2025-06-24 16:11:26 +0200",
+      "guardian_statue_obtain": "2025-09-21 20:50:05 +0200",
       "creep_statue_obtain": "2025-04-03 22:09:25 +0200",
+      "cotton_candor_statue_obtain": "2025-09-19 18:27:56 +0200",
       "baroness_statue_obtain": "2025-04-13 18:04:41 +0200",
       "hive_king_statue_obtain": "2025-04-03 21:55:43 +0200",
       "elusive_statue_obtain": "2025-04-07 17:15:00 +0200"
@@ -5956,6 +6193,12 @@
   "mod_lavacow:mod_lavacow/kill_zombiemushroom": {
     "criteria": {
       "kill_zombiemushroom": "2024-07-13 13:51:48 +0200"
+    },
+    "done": true
+  },
+  "aoa3:gardencia/root": {
+    "criteria": {
+      "access_gardencia": "2025-09-13 16:02:32 +0200"
     },
     "done": true
   },
@@ -6327,6 +6570,12 @@
     },
     "done": true
   },
+  "bewitchment:mined_coquina": {
+    "criteria": {
+      "hat": "2025-09-14 16:39:59 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/end_rod": {
     "criteria": {
       "has_chorus_fruit_popped": "2024-08-18 19:45:02 +0200"
@@ -6342,6 +6591,18 @@
   "extrabotany:main/landmineactive": {
     "criteria": {
       "ebt_trigger": "2024-09-01 21:52:52 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/quest_grove": {
+    "criteria": {
+      "discover": "2025-09-14 17:10:14 +0200"
+    },
+    "done": true
+  },
+  "bewitchment:fda": {
+    "criteria": {
+      "fda": "2025-09-14 16:15:01 +0200"
     },
     "done": true
   },
@@ -6415,6 +6676,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_cobblestone": "2024-07-13 11:36:07 +0200"
+    },
+    "done": true
+  },
+  "aoa3:overworld/the_almighty_touch": {
+    "criteria": {
+      "200_damage_hit": "2025-09-14 19:58:05 +0200"
     },
     "done": true
   },

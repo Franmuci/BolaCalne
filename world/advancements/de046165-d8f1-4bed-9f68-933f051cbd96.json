@@ -17,6 +17,12 @@
     },
     "done": true
   },
+  "astralsorcery:find_minor_constellation": {
+    "criteria": {
+      "minor_constellation_discovered": "2025-09-16 22:01:01 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2024-10-13 19:11:13 +0200"
@@ -146,9 +152,11 @@
   "erebus:exploration/kill_all": {
     "criteria": {
       "kill_black_widow": "2025-04-14 16:56:37 +0200",
+      "kill_mosquito": "2025-09-16 19:25:29 +0200",
       "kill_beetle": "2025-04-13 17:34:13 +0200",
       "kill_scytodes": "2025-04-13 17:35:37 +0200",
       "kill_zombie_ant": "2025-04-07 15:54:05 +0200",
+      "kill_glow_worm": "2025-09-16 19:19:36 +0200",
       "kill_antlion": "2025-04-14 16:56:49 +0200",
       "kill_scorpion": "2025-04-13 17:35:13 +0200",
       "kill_tarantula": "2025-04-13 17:34:06 +0200",
@@ -158,7 +166,9 @@
       "kill_beetle_larva": "2025-04-13 17:34:11 +0200",
       "kill_zombie_ant_soldier": "2025-04-07 15:53:45 +0200",
       "kill_jumping_spider": "2025-04-14 16:56:20 +0200",
+      "kill_grasshopper": "2025-09-16 19:24:00 +0200",
       "kill_fire_ant": "2025-04-14 16:55:56 +0200",
+      "kill_wasp": "2025-09-16 19:24:14 +0200",
       "kill_solifuge": "2025-04-14 16:56:06 +0200"
     },
     "done": false
@@ -187,6 +197,12 @@
     },
     "done": true
   },
+  "nuclearcraft:processors/dissolver": {
+    "criteria": {
+      "has_item": "2025-09-12 19:51:51 +0200"
+    },
+    "done": true
+  },
   "enderioconduits:item/1_item_conduit": {
     "criteria": {
       "inv_changed-enderio:item_conduit": "2024-10-07 22:48:21 +0200"
@@ -196,6 +212,12 @@
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2024-10-13 19:11:13 +0200"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/forest_islands": {
+    "criteria": {
+      "enter_wildwood": "2025-09-19 19:39:18 +0200"
     },
     "done": true
   },
@@ -280,6 +302,12 @@
   "biomesoplenty:recipes/transportation/boat_mangrove": {
     "criteria": {
       "entered_water": "2024-09-02 19:51:35 +0200"
+    },
+    "done": true
+  },
+  "integrateddynamics:root": {
+    "criteria": {
+      "criteria_0": "2025-09-17 16:44:12 +0200"
     },
     "done": true
   },
@@ -525,6 +553,12 @@
     },
     "done": true
   },
+  "aoa3:haven/root": {
+    "criteria": {
+      "access_haven": "2025-09-20 19:20:49 +0200"
+    },
+    "done": true
+  },
   "botania:main/corporea_craft": {
     "criteria": {
       "index": "2025-04-13 20:04:56 +0200"
@@ -546,6 +580,12 @@
   "advancedrocketry:normal/root": {
     "criteria": {
       "crafting_table": "2025-03-23 22:39:48 +0100"
+    },
+    "done": true
+  },
+  "aether_legacy:recipes/tools/zanite_ring": {
+    "criteria": {
+      "has_zanite_gemstone": "2025-09-16 22:47:20 +0200"
     },
     "done": true
   },
@@ -831,6 +871,12 @@
     },
     "done": true
   },
+  "aether_legacy:recipes/combat/zanite_leggings": {
+    "criteria": {
+      "has_zanite_gemstone": "2025-09-16 22:47:20 +0200"
+    },
+    "done": true
+  },
   "divinerpg:nether/eternal_flame": {
     "criteria": {
       "kill_boss_king_of_scorchers": "2025-03-30 22:13:34 +0200"
@@ -1089,6 +1135,12 @@
     },
     "done": true
   },
+  "aether_legacy:recipes/combat/zanite_gloves": {
+    "criteria": {
+      "has_zanite_gemstone": "2025-09-16 22:47:20 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_stained_glass": {
     "criteria": {
       "has_glass": "2024-11-06 22:38:19 +0100"
@@ -1170,6 +1222,12 @@
   "bhc:main/yellow_heart": {
     "criteria": {
       "orange_heart_in_inventory": "2024-10-07 22:06:51 +0200"
+    },
+    "done": true
+  },
+  "aoa3:haven/lighthearted_surgery": {
+    "criteria": {
+      "voliant_heart_obtain": "2025-09-20 19:22:55 +0200"
     },
     "done": true
   },
@@ -1786,6 +1844,12 @@
     },
     "done": true
   },
+  "aether_legacy:recipes/tools/zanite_pickaxe": {
+    "criteria": {
+      "has_zanite_gemstone": "2025-09-16 22:47:20 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2024-10-13 20:23:23 +0200"
@@ -1882,6 +1946,12 @@
     },
     "done": true
   },
+  "aoa3:haven/guard_that": {
+    "criteria": {
+      "kill_four_guardians": "2025-09-21 20:49:23 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_magic": {
     "criteria": {
       "entered_water": "2024-09-02 19:51:35 +0200"
@@ -1945,6 +2015,18 @@
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2024-09-03 18:26:04 +0200"
+    },
+    "done": true
+  },
+  "aether_legacy:recipes/tools/zanite_shovel": {
+    "criteria": {
+      "has_zanite_gemstone": "2025-09-16 22:47:20 +0200"
+    },
+    "done": true
+  },
+  "aether_legacy:recipes/combat/zanite_sword": {
+    "criteria": {
+      "has_zanite": "2025-09-16 22:47:20 +0200"
     },
     "done": true
   },
@@ -2175,6 +2257,12 @@
     },
     "done": true
   },
+  "integrateddynamics:logic_operations/logic_programming": {
+    "criteria": {
+      "criteria_0": "2025-09-17 16:44:19 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_coal_block": "2024-11-06 22:25:35 +0100"
@@ -2283,6 +2371,12 @@
     },
     "done": true
   },
+  "aether_legacy:recipes/combat/zanite_helmet": {
+    "criteria": {
+      "has_zanite_gemstone": "2025-09-16 22:47:20 +0200"
+    },
+    "done": true
+  },
   "bewitchment:purification_in_progress": {
     "criteria": {
       "ghost": "2024-09-02 21:08:47 +0200"
@@ -2304,6 +2398,12 @@
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2025-04-09 17:11:31 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/steeleaf_tool_set": {
+    "criteria": {
+      "ingredient": "2025-09-18 20:27:54 +0200"
     },
     "done": true
   },
@@ -2442,7 +2542,14 @@
   },
   "aoa3:completionist/an_unbalanced_diet": {
     "criteria": {
+      "raw_crimson_skipper": "2025-09-12 18:03:24 +0200",
+      "raw_turquoise_stripefish": "2025-09-12 18:03:16 +0200",
+      "raw_limefish": "2025-09-12 18:03:36 +0200",
       "raw_charger_shank": "2024-09-02 20:20:36 +0200",
+      "raw_candlefish": "2025-09-12 18:03:28 +0200",
+      "raw_rocketfish": "2025-09-12 18:03:32 +0200",
+      "raw_pearl_stripefish": "2025-09-12 18:03:39 +0200",
+      "raw_fingerfish": "2025-09-12 18:03:20 +0200",
       "raw_violet_skipper": "2025-03-24 21:04:33 +0100",
       "raw_sapphire_strider": "2025-04-13 23:36:36 +0200"
     },
@@ -2769,6 +2876,12 @@
     },
     "done": true
   },
+  "erebus:agriculture/honeyfoods": {
+    "criteria": {
+      "treat": "2025-09-20 11:18:41 +0200"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2024-11-06 22:38:19 +0100"
@@ -2838,6 +2951,7 @@
       "flower_field": "2025-03-23 14:11:37 +0100",
       "cold_desert": "2024-09-02 21:05:30 +0200",
       "mountain_foothills": "2025-03-23 14:12:21 +0100",
+      "maple_woods": "2025-09-20 12:11:28 +0200",
       "coral_reef": "2024-09-02 20:19:22 +0200",
       "orchard": "2025-04-12 14:30:56 +0200",
       "land_of_lakes": "2025-06-16 20:01:35 +0200",
@@ -3004,6 +3118,7 @@
       "wither_skeleton": "2024-10-07 22:06:11 +0200",
       "zombie_villager": "2024-10-13 20:00:24 +0200",
       "magma_cube": "2025-03-23 13:18:41 +0100",
+      "slime": "2025-09-17 17:14:24 +0200",
       "skeleton": "2024-09-03 15:20:45 +0200",
       "husk": "2024-09-03 15:25:28 +0200",
       "blaze": "2025-03-23 13:20:44 +0100",
@@ -3103,6 +3218,12 @@
     },
     "done": true
   },
+  "aether_legacy:recipes/tools/zanite_pendant": {
+    "criteria": {
+      "has_zanite_gemstone": "2025-09-16 22:47:20 +0200"
+    },
+    "done": true
+  },
   "twilightforest:alt/major_landmarks/naga_courtyard": {
     "criteria": {
       "discover": "2025-06-25 10:57:12 +0200"
@@ -3193,6 +3314,12 @@
     },
     "done": true
   },
+  "thebetweenlands:survivalist/say_nay_to_decay": {
+    "criteria": {
+      "have_petal": "2025-09-16 22:22:07 +0200"
+    },
+    "done": true
+  },
   "erebus:exploration/rhino_beetle": {
     "criteria": {
       "get_plate": "2025-03-31 01:16:17 +0200"
@@ -3220,6 +3347,12 @@
   "minecraft:recipes/redstone/wooden_pressure_plate": {
     "criteria": {
       "has_planks": "2025-03-27 21:35:14 +0100"
+    },
+    "done": true
+  },
+  "aether_legacy:recipes/combat/zanite_chestplate": {
+    "criteria": {
+      "has_zanite_gemstone": "2025-09-16 22:47:20 +0200"
     },
     "done": true
   },
@@ -3539,6 +3672,12 @@
     },
     "done": true
   },
+  "dimdoors:dimdoor/root": {
+    "criteria": {
+      "entered_end": "2025-09-20 13:49:45 +0200"
+    },
+    "done": true
+  },
   "nuclearcraft:fission/berkelium": {
     "criteria": {
       "has_item": "2025-04-01 21:59:39 +0200"
@@ -3614,6 +3753,12 @@
   "aether_legacy:recipes/decorations/skyroot_fence": {
     "criteria": {
       "has_planks": "2025-03-27 21:31:39 +0100"
+    },
+    "done": true
+  },
+  "aether_legacy:recipes/combat/zanite_boots": {
+    "criteria": {
+      "has_zanite_gemstone": "2025-09-16 22:47:20 +0200"
     },
     "done": true
   },
@@ -3767,6 +3912,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_the_recipe": "2025-09-12 18:11:14 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2025-03-23 19:15:58 +0100"
@@ -3830,6 +3981,12 @@
   "divinerpg:arcana/root": {
     "criteria": {
       "divinerpg": "2024-11-06 19:48:55 +0100"
+    },
+    "done": true
+  },
+  "erebus:agriculture/root": {
+    "criteria": {
+      "flowers": "2025-09-20 16:05:41 +0200"
     },
     "done": true
   },
@@ -3985,6 +4142,12 @@
     },
     "done": true
   },
+  "mowziesmobs:kill_naga": {
+    "criteria": {
+      "naga": "2025-09-19 23:24:50 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_eucalyptus": {
     "criteria": {
       "entered_water": "2024-09-02 19:51:35 +0200"
@@ -3994,6 +4157,12 @@
   "twilightforest:alt/compat/tconstruct": {
     "criteria": {
       "cast": "2024-09-02 19:37:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_at_least_9_wheat": "2025-09-12 18:11:14 +0200"
     },
     "done": true
   },
@@ -4051,6 +4220,12 @@
     },
     "done": true
   },
+  "erebus:agriculture/farm_complete": {
+    "criteria": {
+      "flowers": "2025-09-20 16:05:41 +0200"
+    },
+    "done": false
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2024-09-02 19:48:07 +0200"
@@ -4104,6 +4279,12 @@
   "astralsorcery:perk_level_small": {
     "criteria": {
       "gain_perk_level_small": "2024-09-02 19:31:57 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/multiblock_crusher": {
+    "criteria": {
+      "form_blastfurnace": "2025-09-14 13:02:51 +0200"
     },
     "done": true
   },
@@ -4381,6 +4562,12 @@
     },
     "done": true
   },
+  "techreborn:sap": {
+    "criteria": {
+      "treetap_in_inventory": "2025-09-19 22:22:47 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2024-10-07 17:34:26 +0200"
@@ -4416,12 +4603,16 @@
       "nethengeic_wither_statue_obtain": "2025-04-03 22:15:27 +0200",
       "graw_statue_obtain": "2025-04-07 16:36:47 +0200",
       "tyrosaur_statue_obtain": "2025-04-13 17:24:18 +0200",
+      "rockrider_statue_obtain": "2025-09-21 21:33:55 +0200",
       "silverfoot_statue_obtain": "2025-06-25 22:04:30 +0200",
       "crystocore_statue_obtain": "2025-06-25 21:37:01 +0200",
       "corallus_statue_obtain": "2025-04-09 20:37:34 +0200",
       "voxxulon_statue_obtain": "2025-06-25 21:16:56 +0200",
+      "vinocorne_statue_obtain": "2025-09-18 20:26:31 +0200",
       "skeletron_statue_obtain": "2025-04-07 16:22:39 +0200",
       "mechbot_statue_obtain": "2025-06-25 22:04:30 +0200",
+      "guardian_statue_obtain": "2025-09-21 20:49:52 +0200",
+      "cotton_candor_statue_obtain": "2025-09-20 12:01:12 +0200",
       "baroness_statue_obtain": "2025-06-25 22:10:47 +0200",
       "hive_king_statue_obtain": "2025-06-25 22:09:39 +0200"
     },
@@ -4442,6 +4633,12 @@
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2024-11-06 22:38:19 +0100"
+    },
+    "done": true
+  },
+  "aether_legacy:recipes/tools/zanite_axe": {
+    "criteria": {
+      "has_zanite_gemstone": "2025-09-16 22:47:20 +0200"
     },
     "done": true
   },
@@ -4533,6 +4730,12 @@
   "mod_lavacow:mod_lavacow/kill_zombiemushroom": {
     "criteria": {
       "kill_zombiemushroom": "2025-03-29 15:37:53 +0100"
+    },
+    "done": true
+  },
+  "aoa3:gardencia/root": {
+    "criteria": {
+      "access_gardencia": "2025-09-20 17:59:51 +0200"
     },
     "done": true
   },
@@ -4638,6 +4841,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/steeleaf_armor_set": {
+    "criteria": {
+      "ingredient": "2025-09-18 20:27:54 +0200"
+    },
+    "done": true
+  },
   "aether_legacy:recipes/tools/gold_ring": {
     "criteria": {
       "has_gold": "2024-09-02 19:37:29 +0200"
@@ -4719,6 +4928,12 @@
   "minecraft:recipes/misc/magenta_dye_from_allium": {
     "criteria": {
       "has_red_flower": "2024-11-06 18:46:45 +0100"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/growth_accelerator": {
+    "criteria": {
+      "certus": "2025-09-21 23:30:36 +0200"
     },
     "done": true
   },
