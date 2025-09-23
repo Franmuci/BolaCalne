@@ -4985,6 +4985,12 @@
     },
     "done": true
   },
+  "bewitchment:mined_coquina": {
+    "criteria": {
+      "hat": "2025-09-22 21:12:08 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/end_rod": {
     "criteria": {
       "has_chorus_fruit_popped": "2024-10-07 17:39:24 +0200"

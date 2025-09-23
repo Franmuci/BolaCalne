@@ -3273,6 +3273,12 @@
     },
     "done": true
   },
+  "thebetweenlands:fighter/illegal_logging": {
+    "criteria": {
+      "primordial_malevolence": "2025-09-22 17:16:19 +0200"
+    },
+    "done": true
+  },
   "ebwizardry:defeat_remnant": {
     "criteria": {
       "sorcery": "2024-07-27 17:38:16 +0200",
@@ -5801,6 +5807,12 @@
   "biomesoplenty:recipes/transportation/boat_eucalyptus": {
     "criteria": {
       "entered_water": "2024-07-13 11:31:30 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/pink_dye_from_pink_daffodil": {
+    "criteria": {
+      "has_flower": "2025-09-22 17:51:43 +0200"
     },
     "done": true
   },
